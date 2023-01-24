@@ -14,4 +14,4 @@ Optional authentication via htaccess:
     docker run -name cgit -d -p 80:80 -e HTTP_AUTH_USER=user -e HTTP_AUTH_PASSWORD=password -v my/git/repositories:/git invokr/cgit
     
     
-```sudo chmod -R 755 /home/git```
+    sudo chmod -R 755 /home/git
